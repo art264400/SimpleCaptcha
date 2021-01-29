@@ -4,7 +4,6 @@ namespace SimpleCaptcha.Helpers
 {
     public class CaptchaTagHelper : TagHelper
     {
-        public string Id { get; set; }
         public string ReloadIconUrl { get; set; }
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
